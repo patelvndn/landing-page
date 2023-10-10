@@ -13,8 +13,10 @@
 .fourth-color {
   background: #1e549f;
 }
+
 html {
   font-family: "Times New Roman", Times, serif;
+  background-color: #081f37;
 }
 
 body {
@@ -60,6 +62,7 @@ body {
   background: #1f2937;
   display: flex;
   padding: 50px;
+  padding-bottom: 100px;
   align-items: center;
 }
 
@@ -96,4 +99,133 @@ body {
   max-width: 30%;
   border-radius: 25px;
   flex: 1 0 0;
+}
+
+.information {
+  width: auto;
+  background: white;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.information .card-title {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex: 1 0 0;
+}
+
+.information .card-title h1 {
+  margin: 0;
+  font-style: oblique;
+  color: #1f2937;
+}
+
+.information .card-container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 0 0;
+}
+
+.information .card-container .card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  padding: 20px;
+}
+
+.information .card-container .card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+}
+
+.information .card-container .card p {
+  color: #081f37;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  background: lightgray;
+}
+
+.quote-container {
+  padding: 0 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.quote {
+  flex: 1 0 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  font-style: oblique;
+}
+
+.speaker {
+  flex: 1 0 0;
+  font-size: larger;
+  font-style: oblique;
+  align-self: flex-end;
+}
+
+.signup {
+  padding: 25px 200px;
+  width: auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.signup-box {
+  padding: 0 25px;
+  flex: 0 0 100%;
+  width: 250px;
+  height: 150px;
+  border: 2px #081f37 solid;
+  background-color: #081f37;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-box p {
+  font-weight: 900;
+  font-size: x-large;
+  color: wheat;
+}
+
+.signup-box button {
+  align-self: center;
+  padding: 5px 25px;
+  color: wheat;
+  background-color: #081f37;
+  border-radius: 10px;
+  border-color: wheat;
+}
+
+.footer {
+  width: auto;
+  height: 75px;
+  background-color: #081f37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: wheat;
+  font-size: large;
+  font-weight: 700;
+  font-style: oblique;
 }
